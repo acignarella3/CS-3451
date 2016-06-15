@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CS 3451 Fall 2015 - Assignment 5</title>
+<link type="text/css" href="includes/style.css" rel="stylesheet" />
+
+<script src="resources/webgl-utils.js"></script>
+<script src="resources/gl-matrix.js"></script>
+<script src="resources/chroma.js"></script>
+<script src="resources/Stats.js"></script>
+<script src="resources/howler.js"></script>
+</head>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    $(document).unbind('keydown').bind('keydown', function (event) {
+   
+    if (event.keyCode === 8) {
+        event.preventDefault();
+    }
+    if (event.keyCode === 32) {
+        event.preventDefault();
+    }
+  
+});
+</script>
+
+<body>
+<div class="description">
+Happy Holidays!
+</div>
+<!--
+<div>Pick a shader effect: 
+	<button id="effect1" class="button" onclick="onEffect1();">Effect 1</button>		
+	<button id="effect2" class="button" onclick="onEffect2();">Effect 2</button>		
+	<button id="effect3" class="button" onclick="onEffect3();">Effect 3</button>		
+	<button id="effect4" class="button" onclick="onEffect4();">Effect 4</button>		
+</div>
+-->
+
+<div>Type in up to 15 letters. Click the button to start over.
+	<button id="reset" class="button" onclick="reset();">Reset</button>
+</div>
+
+<canvas id="webgl"></canvas>
+
+<script data-main="js/a5" type="text/javascript" src="resources/require.js"></script>
+
+</body>
+</html>

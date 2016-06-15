@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+        "module": "amd",
+		"target": "ES5",
+		"noImplicitAny": false,
+		"preserveConstEnums":true,
+		"outDir": "js",
+		"sourceMap": true,
+		"watch": false
+	},
+	"files": [
+		"a0.ts",
+		"pointset.ts"
+	]
+}

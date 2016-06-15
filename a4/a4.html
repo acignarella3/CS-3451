@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CS 3451 Fall 2015 - Assignment 4</title>
+<link type="text/css" href="includes/style.css" rel="stylesheet" />
+
+<script src="resources/webgl-utils.js"></script>
+<script src="resources/gl-matrix.js"></script>
+<script src="resources/chroma.js"></script>
+<script src="resources/Stats.js"></script>
+</head>
+
+<body>
+<div class="description">
+Shaders, shaders everywhere!
+</div>
+ 
+<div>Pick a shader effect: 
+	<button id="effect1" class="button" onclick="onEffect1();">Effect 1</button>		
+	<button id="effect2" class="button" onclick="onEffect2();">Effect 2</button>		
+	<button id="effect3" class="button" onclick="onEffect3();">Effect 3</button>		
+	<button id="effect4" class="button" onclick="onEffect4();">Effect 4</button>		
+</div>
+
+<canvas id="webgl"></canvas>
+
+<script data-main="js/a4" type="text/javascript" src="resources/require.js"></script>
+
+</body>
+</html>
